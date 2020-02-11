@@ -1,0 +1,89 @@
+@font-face {
+    font-family: simpsonsFont;
+    src: url(SimpsonsFont.otf);
+}
+
+
+
+#all {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-top: 15px;
+}
+#header {
+   text-align: center;
+   border-style: solid;
+   border-color: black;
+   border-width: 0px 0px 2px 0px;
+   padding: 15px 0px 15px 0px;
+   background-color: #f8f9fa;
+   margin: 15px 0px 15px 0px;
+   font-family: simpsonsFont;
+}
+
+#pagetitle {
+    border-style: solid;
+    border-color: #f8f9fa;
+    border-width: 0px 0px 2px 0px;
+}
+
+#name {
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px 0px 0px 0px;
+    background-color: #f8f9fa;
+}
+#main {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#navbar {
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 0px 2px 0px;
+    margin-top: 15px; 
+}
+
+#link {
+    margin: auto;
+    border-style: bold;
+    border-width: 1px;
+    border-color: black;
+}
+
+
+
+#link:link {
+    color: black;
+}
+
+#link:visited {
+    color: purple;
+}
+
+#link:hover {
+    font-weight: bold;
+}
+
+
+.nav-pills .nav-link.active {
+    background-color: palegoldenrod
+}
+
+
+.alert {
+    background-color: yellow;
+    text-align: center;
+}
+
+
+
+
+

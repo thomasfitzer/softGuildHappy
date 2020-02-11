@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./restaurantStyles.css">
+    <script src="https://kit.fontawesome.com/3da237c8bc.js" crossorigin="anonymous"></script>
+
+   
+    <title>Happy Penguin</title>
+    <style>
+    #sliding {
+    margin: 0 auto;
+} 
+
+p {
+    text-align: center;
+}
+
+img {
+    position: relative;
+    left: 325px;
+}
+
+.row {
+    margin: auto;
+    border-spacing: 20px;
+    
+}
+ #demo {
+     padding: 15px 0px 15px 0px;
+ }
+
+ #food {
+     text-align: center;
+     
+ }
+
+#beer {
+    text-align: right;
+    
+}
+
+ .card {
+     width: 250px;
+     height: 200px;
+     float: left;
+     border-style: solid;
+     border-width: 1px;
+     border-color: black;
+     background-color: lightgoldenrodyellow;
+ }
+
+#notlinks {
+     margin: 10px 0px 10px 0px;
+ }
+
+ #eats {
+     margin: 10px 0px 10px 0px;
+     text-align: center;
+ }
+
+ #brews {
+     border-style: solid;
+     border-color: black;
+     border-width: 1px;
+     background-color: lightgoldenrodyellow;
+     margin: 20px 0px 20px 0px;
+ }
+
+ #titlemenu {
+    text-align: center; 
+     
+    margin: 10px 0px 10px 0px;
+    
+ }
+ a.nav-link.active.text-danger {
+    background-color: plum;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
+#cartext {
+    position: relative;
+    top: 30px;
+    left: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    background-color: white;
+    color: red;
+    width: 50%;
+    text-align: center;
+}
+
+.alert {
+    text-align: center;
+    background-color: yellow;
+    color: black;
+}
+
+#maincontent {
+    background-color: #f8f9fa;
+}
+
+
+
+    
+    </style>
+</head>
+<body>
+    <div class="container" id="all">   
+        <noscript>
+            <div class="alert">
+                    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                    This site is best used with Javascript. Either turn it on in your settings,
+                    or download it <a href="https://www.java.com/en/download/">here.</a>
+                  </div>
+        </noscript>
+          
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+            <div class="nav nav-pills">
+                <a href="index.html" class="nav-link" id="link"><i class="fas fa-home fa-lg" style="display: inline-block;"></i></a>
+                <a href="menu.html" class="nav-link active" id="link">Menu</a>
+                <a href="contact.html" class="nav-link" id="link">Contact</a>
+                
+
+            </div>
+        </nav>
+
+        <div class="container" id="header">
+            <h1>Menu</h1>
+
+        </div>
+         
+        <div class="container" id="maincontent">
+            
+            <div class="row">
+                <div class="col-8">
+                    <h3 id="titlemenu">Food</h3>
+                </div>
+                <div class="col-4">
+                    <h3 id="titlemenu">Beer</h3>
+                    </div>
+                
+                <div class="col-4" id="1food">
+                    <ul style="list-style: none;">
+                        <li id="notlinks">
+                            <div class="card" id="eats">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Klown Burger</h5>
+                                      <h6 class="card-subtitle mb-2 text-muted">$10.95</h6>
+                                      <p class="card-text">Our classic burger, with American cheese, lettuce, tomato, and pickle on top. Served with fries.</p>
+                                      
+                                    </div>
+                                  </div>
+                        </li>
+                        <li id="notlinks">
+                            <div class="card" id="eats">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Sim Sandwich</h5>
+                                      <h6 class="card-subtitle mb-2 text-muted">$9.95</h6>
+                                      <p class="card-text">Build your own sandwich! Share it with friends! Served with chips.</p>
+                                      
+                                    </div>
+                                  </div>
+                        </li>
+                        <li id="notlinks">
+                                <div class="card" id="eats">
+                                        <div class="card-body">
+                                          <h5 class="card-title">The Murderhorn</h5>
+                                          <h6 class="card-subtitle mb-2 text-muted">$20.95</h6>
+                                          <p class="card-text">Our challenge burger, you have 15 minutes to finish two pounds of meat
+                                            plus another half pound of fries.
+                                          </p>
+                                          
+                                        </div>
+                                      </div>
+                        </li>
+                        <li id="notlinks">
+                                    <div class="card" id="eats">
+                                            <div class="card-body">
+                                              <h5 class="card-title">The Flying Pig</h5>
+                                              <h6 class="card-subtitle mb-2 text-muted">$11.95</h6>
+                                              <p class="card-text">BBQ pork sandiwch, served with coleslaw and fries.</p>
+                                              
+                                            </div>
+                                          </div>
+                                </li>
+                    </ul>
+                </div>
+                <div class="col-4" id="1food">
+                        <ul style="list-style: none;">
+                            <h3></h3>
+                            <li id="notlinks">
+                                <div class="card" id="eats">
+                                        <div class="card-body">
+                                          <h5 class="card-title">All You Can Eat Shrimp</h5>
+                                          <h6 class="card-subtitle mb-2 text-muted">$21.95</h6>
+                                          <p class="card-text">Very simple, you eat as many trays of shrimp as you want.</p>
+                                          
+                                        </div>
+                                      </div>
+                            </li>
+                            <li id="notlinks">
+                                <div class="card" id="eats">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Junior Camper Burger</h5>
+                                          <h6 class="card-subtitle mb-2 text-muted">$6.95</h6>
+                                          <p class="card-text">The kid's version of our Klown Burger. Served with fries or fruit.</p>
+                                          
+                                        </div>
+                                      </div>
+                            </li>
+                            <li id="notlinks">
+                                    <div class="card" id="eats">
+                                            <div class="card-body">
+                                              <h5 class="card-title">HMS Pinafore Fish and Chips</h5>
+                                              <h6 class="card-subtitle mb-2 text-muted">$11.95</h6>
+                                              <p class="card-text">Blinky and company seek to soothe your taste bud.</p>
+                                              
+                                            </div>
+                                          </div>
+                            </li>
+                            <li id="notlinks">
+                                        <div class="card" id="eats">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">Bone Storm</h5>
+                                                  <h6 class="card-subtitle mb-2 text-muted">$14.95</h6>
+                                                  <p class="card-text">An entire rack of ribs, served with beans, coleslaw, and fries.</p>
+                                                  
+                                                </div>
+                                              </div>
+                                    </li>
+                        </ul>
+                    </div>
+                    
+                <div class="col-3" id="beer">
+                     
+                        <ul style="list-style: none;">
+                            <li id="brews">Duff, 14oz- $3, 22oz-$4.25</li>
+                            <li id="brews">Duff Adequate, $3.25, $4.50</li>
+                            <li id="brews">Duff Draft, $3.50, $4.75</li>
+                            <h5 id="beer">Non-Alcoholic</h5>
+                            <li id="brews">Root Beer, $2.50</li>
+                            <li id="brews">Bottled Watter, $1</li>
+                            <li id="brews">Lemonade, $2.25</li>
+                            <li id="brews">Iced Tea, $2.25</li>
+                        </ul>
+                        
+                        
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        
+    </br>
+        <div class="container" id="footer">
+        </br>
+            <p>123 Fake Street, Springfield, KY, 40069</p>
+            <p>1-800-HAPPYDUDE</p>
+        </div>
+    </div>
+    
+  </body>
+    </html>
+
